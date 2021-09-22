@@ -1,0 +1,64 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    background-image: url('https://static.toiimg.com/photo/80873764.cms');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: left left ; */
+    /* position: relative;  */
+    font-family: sans-serif;
+}
+
+.loginDesign {
+    /* margin:500px; */
+   position: absolute;
+   top: 25%;
+   left:25%;
+   overflow: hidden;
+   float: left;
+}
+
+.loginDesign h2{
+padding: 13px 0;
+/* border-bottom: 1px rgba(255, 0, 0, 0.103) solid; */
+overflow: hidden;
+font-size: 40px;
+}
+
+ .loginDesign input[type='text'] {
+     margin-bottom: 25px;
+     border: none;
+     border-bottom: 2px blue solid;
+     background: none;
+     outline: none;
+     font-size:20px;
+
+ }
+
+ .loginDesign input[type='password'] {
+     margin-bottom: 25px;
+     background:none;
+     border: none;
+     outline:none;
+     border-bottom: 2px blue solid;
+     font-size:20px;
+ }
+
+.loginDesign input[type='submit'] {
+ border: 1px red solid ;
+ border-radius: 10px ;
+ width:100%;
+ height: 30px;
+ margin: 5px;
+ background-color: blue;
+ color: red;
+ font-size:20px;
+ padding: 5px 0px;
+ cursor: pointer;
+}
+
+.loginDesign i{
+    width:15px;
+    height: 30px;
+    float: left;
+}
